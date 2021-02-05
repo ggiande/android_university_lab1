@@ -1,5 +1,5 @@
 package com.codepath.bestsellerlistapp.networking;
-
+import com.codepath.bestsellerlistapp.BuildConfig;
 import com.codepath.bestsellerlistapp.models.BestSellerBook;
 import com.codepath.bestsellerlistapp.models.NYTimesAPIResponse;
 
@@ -25,8 +25,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class NYTimesApiClient {
 
     // TODO: Replace the below API key with your own generated key
-    private static final String API_KEY = "<YOUR-API-KEY-GOES-HERE>";
-    private NYTimesService nyTimesService;
+    private static final String API_KEY = BuildConfig.CONSUMER_BOOK_KEY;
+    private final NYTimesService nyTimesService;
 
     public NYTimesApiClient() {
         Retrofit retrofit = new Retrofit.Builder()
