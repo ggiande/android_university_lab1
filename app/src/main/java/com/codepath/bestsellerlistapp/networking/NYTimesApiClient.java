@@ -26,7 +26,7 @@ public class NYTimesApiClient {
 
     // TODO: Replace the below API key with your own generated key
     private static final String API_KEY = BuildConfig.CONSUMER_BOOK_KEY;
-    private NYTimesService nyTimesService;
+    private final NYTimesService nyTimesService;
 
     public NYTimesApiClient() {
         Retrofit retrofit = new Retrofit.Builder()

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NY Times Best Seller</string>
+    <string name="purchase_from_amazon">Buy on Amazon</string>
+    <string name="lorem_book_description">THIS IS A PLACEHOLDER FOR THE DESCRIPTION OF THE APP</string>
+    <string name="author_of_book">THIS IS A PLACEHOLDER FOR THE AUTHOR OF THIS BOOK</string>
+    <string name="name_of_book">THIS IS A PLACEHOLDER FOR THE NAME OF THE BOOK</string>
+    <string name="ranking">PLACEHOLDER RANKING 1</string>
 </resources>
